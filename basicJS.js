@@ -134,3 +134,44 @@ console.log(nextInLine(testArr, 6));
 console.log("After: " + JSON.stringify(testArr));
 
 ////////////////////////////////
+
+function welcomeToBooleans() {
+
+  // Only change code below this line
+
+  return true; // Change this line
+
+  // Only change code above this line
+}  
+
+///////////////////////////////////////////////////////
+
+
+// If statements are used to make decisions in code. The keyword if tells JavaScript to execute the code in the curly braces under certain conditions, defined in the parentheses. 
+
+function trueOrFalse(wasThatTrue) {
+  // Only change code below this line
+
+if (wasThatTrue ) {
+  return "Yes, that was true"
+}
+  return "No, that was false"
+  // Only change code above this line
+  
+}
+
+///////////////////////////////////////////////////////
+
+Add the equality operator to the indicated line so that the function will return the string Equal when val is equivalent to 12.
+
+
+// Setup
+function testEqual(val) {
+  if (val == 12) { // Change this line
+    return "Equal";
+  
+  }
+  return "NOT Equal";
+}
+
+testEqual(10);
