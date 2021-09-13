@@ -224,3 +224,114 @@ function testLogicalAnd(val) {
 
 testLogicalAnd(25);
 testLogicalAnd(50);
+
+///////////////////////////////////////
+
+function testSize(num) {
+  // Only change code below this line
+if (num < 5) {
+  return "Tiny"
+} else if (num < 10) {
+  return "Small"
+} else if (num < 15) {
+  return "Medium"
+} else if (num < 20) {
+  return "Large"
+} else {
+  return "Huge"
+}
+
+
+  // Only change code above this line
+};
+
+testSize(21); 
+// Output should return Huge since it is over 20.
+
+///////////////////////////////
+
+function golfScore(par, strokes) {
+  // Only change code below this line
+  if (strokes == 1) {
+    return "Hole-in-one!";
+  } else if (strokes <= par - 2) {
+    return "Eagle";
+  } else if (strokes == par - 1) {
+    return "Birdie";
+  } else if (strokes == par) {
+    return "Par";
+  } else if (strokes == par + 1) {
+    return "Bogey";
+  } else if (strokes == par + 2) {
+    return "Double Bogey";
+  } else {
+    return "Go Home!";
+  }
+  // Only change code above this line
+}
+// Change these values to test
+golfScore(5, 4);
+
+////////////////////////////////////////////////
+
+
+
+function caseInSwitch(val) {
+  var answer = "";
+  // Only change code below this line
+  switch (val) {
+    case 1:
+      return "alpha";
+      break;
+    case 2:
+      return "beta";
+      break;
+    case 3:
+      return "gamma";
+      break;
+    case 4:
+      return "delta";
+      break;
+  }
+
+  // Only change code above this line
+  return answer;
+}
+
+// Change this value to test
+caseInSwitch(1);
+// This should retrun alpha in the string answer
+
+////////////////////////////////////////////////
+
+function chainToSwitch(val) {
+  var answer = "";
+  // Only change code below this line
+
+
+  switch(val) {
+    case "bob":
+    answer = "Marley"
+    break;
+    case 42:
+    answer = "The Answer"
+    break;
+    case 1:
+    answer = "There is no #1"
+    break;
+    case 99:
+    answer = "Missed me by this much!"
+    break;
+    case 7:
+    answer = "Ate Nine"
+    break;
+  }
+
+  // Only change code above this line
+  return answer;
+}
+//Changed from if/else to a switch statement
+chainToSwitch(7);
+
+////////////////////////////////////
+
