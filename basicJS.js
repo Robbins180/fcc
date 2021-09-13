@@ -162,7 +162,7 @@ if (wasThatTrue ) {
 
 ///////////////////////////////////////////////////////
 
-Add the equality operator to the indicated line so that the function will return the string Equal when val is equivalent to 12.
+// Add the equality operator to the indicated line so that the function will return the string Equal when val is equivalent to 12.
 
 
 // Setup
@@ -175,3 +175,52 @@ function testEqual(val) {
 }
 
 testEqual(10);
+
+///////////////////////////////////////////////////////
+
+// Add the inequality operator != in the if statement so that the function will return the string Not Equal when val is not equivalent to 99
+
+// Setup
+function testNotEqual(val) {
+  if (val != 99) { // Change this line
+    return "Not Equal";
+  }
+  return "Equal";
+}
+
+testNotEqual(99);
+
+///////////////////////////////////////////////////////
+
+// Add the greater than or equal to operator to the indicated lines so that the return statements make sense.
+
+function testGreaterOrEqual(val) {
+  if (val) {  // Change this line
+    return "20 or Over";
+  }
+
+  if (val) {  // Change this line
+    return "10 or Over";
+  }
+
+  return "Less than 10";
+}
+
+testGreaterOrEqual(10);
+
+///////////////////////////////////////////////////////
+
+
+function testLogicalAnd(val) {
+  // Only change code below this line
+
+  if (val >= 25 && val <= 50) {
+    return 'Yes'
+  }
+
+  // Only change code above this line
+  return "No";
+}
+
+testLogicalAnd(25);
+testLogicalAnd(50);
