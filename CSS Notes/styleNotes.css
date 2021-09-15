@@ -34,19 +34,40 @@ a + article {
     color: purple;
 }
 
-input:not([disabled]):not(.example){
-    background-color: #ccc;
-   }
+    input:not([disabled]):not(.example){
+        background-color: #ccc;
+    }
 
-#blue-background {
-    height: 80px;
- 
+    #blue-background {
+        height: 80px;
+    
+    }
+
+    input {
+        margin:30px;
+    }
+
+    #blue-background:focus-within {
+        background-color: #28c589;
+    }
+
+
+   /* input[type=range]::-webkit-slider-thumb, input[type=range]::-moz-range-thumb,
+    input[type=range]::-ms-thumb
+    */
+
+
+    input[type=range]::-webkit-slider-runnable-track, input[type=range]::-moz-range-track,
+input[type=range]::-ms-track
+
+
+#divo {
+    background-color: #de1205; /* red */
 }
 
-input {
-    margin:30px;
+body {
+    background-color: rgb(220, 204, 206);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:&usqp=CAU);
+    overflow: cover;
 }
 
-#blue-background:focus-within {
-    background-color: #1565C0;
-   }
