@@ -69,5 +69,35 @@ body {
     background-color: rgb(220, 204, 206);
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:&usqp=CAU);
     overflow: cover;
+    background:linear-gradient(to left top, rgb(225, 138, 138), rgb(197, 238, 247), yellowgreen 80%);
+}
+ #beer {
+    /* background: border-box rgb(187, 255, 0 ); */
+    background-image: url(https://imgur.com/t/beer/bz9V3too);
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background-color: #ccc; */
+    border: 1px solid;
+    width: 20em;
+    height: 10em;
 }
 
+#beer.contain {
+    background-size: contain;
+}
+
+#beer.cover {
+    background-size: cover;
+   }
+   
+
+   .example0 {
+ width: 300px;
+ border: 20px solid black;
+ padding: 50px;
+ background: url(https://static.pexels.com/photos/6440/magazines-desk-work-workspace-medium.jpg);
+ background-repeat: no-repeat;
+}
+.example1 {}
+.example2 { background-origin: border-box; }
+.example3 { background-origin: content-box; }
