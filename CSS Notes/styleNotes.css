@@ -1,0 +1,52 @@
+h1 {
+    color: green;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 25px;
+    font-family: 'Trebuchet MS' , sans-serif
+}
+
+.spantag {
+    text-shadow: 
+        yellow 0 0 3px,
+        green 4px 4px 10px;
+}
+
+a + article {
+    color: pink;
+}
+
+.important {
+    color: orange;
+}
+
+.warning {
+    color: blue;
+}
+
+.warning .important {
+    color: red;
+}
+
+#element {
+    color: purple;
+}
+
+input:not([disabled]):not(.example){
+    background-color: #ccc;
+   }
+
+#blue-background {
+    height: 80px;
+ 
+}
+
+input {
+    margin:30px;
+}
+
+#blue-background:focus-within {
+    background-color: #1565C0;
+   }
