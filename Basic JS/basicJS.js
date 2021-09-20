@@ -142,12 +142,12 @@ function welcomeToBooleans() {
   return true; // Change this line
 
   // Only change code above this line
-}  
+}
 
 ///////////////////////////////////////////////////////
 
 
-// If statements are used to make decisions in code. The keyword if tells JavaScript to execute the code in the curly braces under certain conditions, defined in the parentheses. 
+// If statements are used to make decisions in code. The keyword if tells JavaScript to execute the code in the curly braces under certain conditions, defined in the parentheses.
 
 function trueOrFalse(wasThatTrue) {
   // Only change code below this line
@@ -157,7 +157,7 @@ if (wasThatTrue ) {
 }
   return "No, that was false"
   // Only change code above this line
-  
+
 }
 
 ///////////////////////////////////////////////////////
@@ -169,7 +169,7 @@ if (wasThatTrue ) {
 function testEqual(val) {
   if (val == 12) { // Change this line
     return "Equal";
-  
+
   }
   return "NOT Equal";
 }
@@ -245,7 +245,7 @@ if (num < 5) {
   // Only change code above this line
 };
 
-testSize(21); 
+testSize(21);
 // Output should return Huge since it is over 20.
 
 ///////////////////////////////
@@ -334,4 +334,3 @@ function chainToSwitch(val) {
 chainToSwitch(7);
 
 ////////////////////////////////////
-
